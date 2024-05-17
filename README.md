@@ -1,4 +1,8 @@
-## CRIAR SUBDOMINIO E APONTAR PARA O IP DA SUA VPS
+## Instalador para uso em Modo Local
+
+Para computadores windows você pode virtualizar uma maquina windows com o https://www.virtualbox.org/
+
+https://www.datalib.com.br/post/instala%C3%A7%C3%A3o-do-ubuntu-20-04-desktop-no-virtual-box
 
 Testado ubuntu 20 e 22
 
