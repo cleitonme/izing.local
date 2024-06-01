@@ -1,3 +1,5 @@
+[![Grupo do WhatsApp](https://img.shields.io/badge/WhatsApp-Grupo%20IZING-brightgreen.svg)](https://chat.whatsapp.com/IIReEheixAx27ZbneHpskP)
+
 ## Instalador para uso em Modo Local
 
 Para computadores windows você pode virtualizar uma maquina windows com o https://www.virtualbox.org/
