@@ -63,8 +63,8 @@ frontend_set_env() {
 
 sudo su - deploy << EOF
   cat <<[-]EOF > /home/deploy/izing.io/frontend/.env
-  VUE_URL_API=http://${ipservidorubuntu}:3000
-  VUE_FACEBOOK_APP_ID='23156312477653241'
+VUE_URL_API=http://${ipservidorubuntu}:3000
+VUE_FACEBOOK_APP_ID='23156312477653241'
 [-]EOF
 EOF
 
@@ -93,7 +93,7 @@ app.use(express.static(path.join(__dirname, 'dist/pwa')))
 app.get('/*', function (req, res) {
   res.sendFile(path.join(__dirname, 'dist/pwa', 'index.html'))
 })
-app.listen(4000)
+app.listen(80)
 [-]EOF
 EOF
 

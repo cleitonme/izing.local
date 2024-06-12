@@ -78,7 +78,8 @@ system_update() {
   apt -y update && apt -y upgrade
   apt autoremove -y
   sudo ufw allow 3000/tcp
-  sudo ufw allow 4000/tcp
+  sudo ufw allow 80/tcp
+  sudo ufw allow 9000/tcp
 EOF
 
   sleep 2
@@ -301,7 +302,7 @@ system_success() {
   printf "\n"
   printf "Senha: 123456"
   printf "\n"
-  printf "URL front: http://$ipservidorubuntu:4000"
+  printf "URL front: http://$ipservidorubuntu"
   printf "\n"
   printf "URL back: http://$ipservidorubuntu:3000"
   printf "\n"
