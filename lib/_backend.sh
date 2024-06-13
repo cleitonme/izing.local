@@ -82,10 +82,10 @@ backend_set_env() {
 sudo su - deploy << EOF
   cat <<[-]EOF > /home/deploy/izing.io/backend/.env
 NODE_ENV=dev
-BACKEND_URL=http://${ipservidorubuntu}:3000
+BACKEND_URL=http://${ipservidorubuntu}
 FRONTEND_URL=http://${ipservidorubuntu}
 
-PROXY_PORT=443
+PROXY_PORT=3000
 PORT=3000
 
 # conexão com o banco de dados
