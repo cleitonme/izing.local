@@ -86,7 +86,7 @@ su deploy
 cd /home/deploy/izing.io/frontend/
 ```
 ```bash
-npx quasar build -P -m pwa
+npm run build
 ```
 
 Testar as alterações em aba anonima
