@@ -299,7 +299,7 @@ system_success() {
   printf "\n"
   printf "Senha: 123456"
   printf "\n"
-  printf "URL front: http://$ipservidorubuntu"
+  printf "URL front: http://$ipservidorubuntu:4000"
   printf "\n"
   printf "URL back: http://$ipservidorubuntu:3000"
   printf "\n"

@@ -83,7 +83,7 @@ sudo su - deploy << EOF
   cat <<[-]EOF > /home/deploy/izing.io/backend/.env
 NODE_ENV=dev
 BACKEND_URL=http://${ipservidorubuntu}
-FRONTEND_URL=http://${ipservidorubuntu}
+FRONTEND_URL=http://${ipservidorubuntu}:4000
 
 PROXY_PORT=3000
 PORT=3000
