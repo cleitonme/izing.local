@@ -19,6 +19,12 @@ A opção atualizar vai pegar ultima versao do repositorio usado para instalar
 
 https://github.com/cleitonme/izing.open.io
 
+## ACESSO ##
+Front: http://seuipinterno:4000
+Back: http://seuipinterno:3000
+
+Usuario: admin@izing.io
+Senha: 123456
 
 ## RODAR OS COMANDOS ABAIXO ##
 
