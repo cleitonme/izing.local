@@ -6,7 +6,7 @@ Para computadores windows você pode virtualizar uma maquina windows com o https
 
 https://www.datalib.com.br/post/instala%C3%A7%C3%A3o-do-ubuntu-20-04-desktop-no-virtual-box
 
-Testado ubuntu 20 e 22
+Testado ubuntu server 20.04 e 22.04
 
 
 Editar arquivo config e colocar senhas de sua preferencia e ip do maquina ubuntu local
@@ -24,15 +24,32 @@ https://github.com/cleitonme/izing.open.io
 
 para evitar erros recomendados atualizar sistema e apos atualizar reniciar para evitar erros
 
+Primeiro crie senha para o sudo
+```bash
+sudo passwd root
+```
+
+Depois logar como sudo
+```bash
+sudo su
+```
+
+Atualizar sistema
 ```bash
 apt -y update && apt -y upgrade
 ```
+
+Reiniciar
 ```bash
 reboot
 ```
 
  
 Depois reniciar seguir com a instalacao
+```bash
+sudo su
+```
+```bash
 
 ```bash
 cd /root
@@ -40,9 +57,9 @@ cd /root
 ```bash
 git clone https://github.com/wnjinfo/izing.install.local.git izinginstalador
 ```
-Editar dados com seus dados, com nano para salvar aperta Ctrl + x
+Editar dados com seus dados, com vim para salvar aperta ESC, depois wq! e de enter.
 ```bash
-nano ./izinginstalador/config
+vim ./izinginstalador/config
 ```
 ```bash
 sudo chmod +x ./izinginstalador/izing
