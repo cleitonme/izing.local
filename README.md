@@ -49,7 +49,6 @@ Depois reniciar seguir com a instalacao
 ```bash
 sudo su
 ```
-```bash
 
 ```bash
 cd /root
