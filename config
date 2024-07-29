@@ -1,7 +1,7 @@
-deploy_password=AKwWM4Qu2GRppJ7
-mysql_root_password=AKwWM4Qu2GRppJ7
-db_pass=AKwWM4Qu2GRppJ7
-pg_pass=AKwWM4Qu2GRppJ7
-redis_pass=AKwWM4Qu2GRppJ7
-repositorio=https://github.com/wnjinfo/izing.open.io.git
-ipservidorubuntu=192.168.1.10
+deploy_password=
+mysql_root_password=
+db_pass=
+pg_pass=
+redis_pass=
+repositorio=https://github.com/ldurans/izing.open.io.git
+ipservidorubuntu=
