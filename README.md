@@ -134,5 +134,4 @@ WHAZING
 
 Para quem gostaria de uma consultoria ou que eu faça instalação pode chamar no whatsapp 48 999416725 (será cobrado por isso)
 
--  [Versão pro do IZING](https://github.com/cleitonme/izing.pro.install)
 -  [Versão API Bayles](https://github.com/cleitonme/Whazing-SaaS.instalador)
