@@ -130,6 +130,10 @@ Depois acesse novamente url http://seuip:9000/
 WHAZING
 ```
 
+#### Curtiu? Apoie o projeto!! Com sua doação, será possível continuar com as atualizações. Segue QR code (PIX)  
+
+[<img src="donate.jpg" height="160" width="180"/>](donate.jpg)
+
 ## Consultoria particular
 
 Para quem gostaria de uma consultoria ou que eu faça instalação pode chamar no whatsapp 48 999416725 (será cobrado por isso)
